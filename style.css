@@ -1,0 +1,49 @@
+.bg-img{
+    background-image: url(./Images/c7222bf9-eb98-4e0e-89fe-4c48b5c3fe34.jpg);
+    width: 100%;
+}
+.shadow{
+        box-shadow: 15px 15px 20px -10px rgba(0, 0, 0, 0.15) !important;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #2DA884 !important;
+    color: white;
+    border: 0 !important;
+}
+.accordion-collapse.show .accordion-body{
+    background-color: #2DA884 !important;
+    color: white;
+        border-radius: 0 0 5px 5px;
+}
+.accordion-button:focus{
+    box-shadow: none !important;
+    outline: none !important;
+    border:0 ;
+    border-radius: 5px 5px 0 0;
+}
+.accordion-item{
+    border: 0;
+}
+.custom-placeholder::placeholder{
+    color: white !important;
+}
+
+.com-details:hover ,
+.content-services:hover,
+.content-services:hover i,
+.content-services:hover span,
+.card:hover .card-body .body-h,
+.card:hover .card-body ul li,
+.card:hover .card-body,
+.card:hover .card-head .btn{
+    background-color: rgb(25 135 81)!important;
+    color: white!important;
+}
+.card:hover .card-body .btn ,.card:hover .card-head{
+    background-color: white!important;
+    color:rgb(25 135 81)!important;
+}
+.card:hover .card-head h5{
+    color: rgb(25 135 81)!important ;
+}
